@@ -1,0 +1,78 @@
+export const locale = {
+    lang: 'en',
+    data: {
+        'about': {
+            'title': 'About',
+            'jobTitle': 'Web and hybrid mobile application developer',
+            'introductionOfMe': "As a passionate and results-driven Senior Software Engineer with over 6 years of experience, I specialize in delivering innovative solutions across diverse industries. My expertise encompasses web development, hybrid mobile applications, where I've led projects from conception to deployment. Throughout my career has spanned across industries including e-commerce, manufacture ...etc, I have consistently demonstrated a commitment to leveraging technology to solve complex problems and drive business success.",
+            'mobility': 'Mobile throughout France',
+            'years': 'Years',
+            'graduation': "Master's degree 2 IT",
+            'myResearch': 'CDI contract search',
+            'researchDescription': "I am deeply passionate about leveraging technology to drive positive change and create meaningful impact. I am excited about the opportunity to collaborate on innovative projects and contribute to the success of your team. Let's connect and explore how we can work together to achieve our goals.",
+            'and':'and',
+            'followMeOn':'Follow me on',
+        },
+        'contact': {
+            'contactMe': 'Contact Me',
+            'notHesitateToContactMe': 'Do not hesitate to',
+            'identify': 'Identify',
+            'enterIdentify': 'Enter your identify',
+            'email': 'Email',
+            'enterEmail': 'Enter your email',
+            'object': 'Object',
+            'enterObject': 'Enter object',
+            'message': 'Message',
+            'send': 'Send',
+        },
+        'education': {
+            'title': 'Curriculum Vitae',
+            'eductionTitle': 'Education',
+            'experiencesTitle': 'Experiences',
+            'centerOfInterest': 'Interests',
+            'sport': 'Sports',
+            'trips': 'Trips',
+            'boardGames': 'Board games',
+            'languages': 'Languages',
+            'fluent': 'Fluent',
+            'goodLevel': 'Good level',
+            'french': 'French',
+            'english': 'English',
+            'masterDegreeOne': "Master's degree",
+            'masterDegreeOneDesc': "Master in Scientific Computing",
+            'bachlorDegree': "Bachelor's degree",
+            'bachlorDegreeDesc': "Bachlor of Computer Science",
+            'university': 'University of Pune, IND',
+            'mission':'Mission',
+            'technologies':'Technologies',
+            'detail':'Detail',
+            'tripsCountries':'Trekking',
+            'boardGamesPlayed':'Carrom',
+            'years':'years'
+        },
+        'header': {
+            'home': 'Home',
+            'about': 'About',
+            'skills': 'Skills',
+            'references': 'References',
+            'contactMe': 'Contact me',
+        },
+        'home': {
+            'iAmDeveloper': 'I am developer',
+        },
+        'projects': {
+            'title': 'Portfolio',
+            'projectDetail':'Project detail',
+            'sourceCode':'Source code',
+        },
+        'references': {
+            'title': 'References',
+        },
+        'skills': {
+            'title': 'Skills',
+            'technologies': 'Technologies',
+            'tools': 'Tools',
+            'methodologies': 'Methodologies'
+        },
+    }
+}

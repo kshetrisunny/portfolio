@@ -1,0 +1,59 @@
+@import '../../variable.scss';
+
+.home {
+  padding-left: 4rem !important;
+
+  img {
+    width: 4rem;
+  }
+}
+li:hover,.home:hover {
+    color: $Green;
+    background-color: transparent;
+    border: 1px solid $Green;
+    border-radius: 3px;
+}
+
+nav{
+    background-color: $Navy;
+}
+
+i{
+  font-size: 16px;
+  padding-right: 6px;
+  color: $Green;
+}
+
+mat-radio-button{
+  color:white;
+}
+a{
+  display: flex;
+  align-items: center;
+  padding: 3px 4px;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+li{
+  display: inline-flex;
+}
+
+.nav-content {
+  width: 100%;
+  float: right !important;
+}
+.navbar-collapse {
+  float: right !important;
+}
+
+@media (max-width: 500px) {
+  .home {
+    padding-left: 1rem !important;
+  
+    img {
+      width: 3rem;
+    }
+  }
+}

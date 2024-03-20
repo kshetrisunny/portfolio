@@ -1,0 +1,65 @@
+@import '../../variable.scss';
+
+ul {
+  list-style-type: none;
+  margin-left: 0 !important;
+  padding-inline-start: 0 !important;
+
+  li {
+    margin-bottom: 5px !important;
+
+    a {
+      color: $Slate;
+    }
+  }
+}
+
+fa-icon{
+    font-size: 15px;
+    color: $Green;
+    width: 30px;
+    height: 30px;
+    background: $LightestNavy;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.bar-title {
+      margin-bottom: 3rem !important;
+      letter-spacing: 1px !important;
+      border-bottom: 3px solid $Green !important;
+}
+
+h2 {
+  font-weight: 900;
+  color: $LightestNavy;
+}
+h3{
+  font-weight: 700;
+    font-size: 26px;
+    color: $LightNavy;
+}
+
+.btn-social-media{
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  color: $Green;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  background: $LightestNavy;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+a{
+  text-decoration: none;
+}
+
+  

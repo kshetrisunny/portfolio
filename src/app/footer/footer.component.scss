@@ -1,0 +1,17 @@
+@import '../../variable.scss';
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $Navy;
+    color: $LightSlate;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: $CodeFont;
+  }
+  .footer p{
+      margin: 10px 0px ;
+  }

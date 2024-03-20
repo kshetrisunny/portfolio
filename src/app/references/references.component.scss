@@ -1,0 +1,31 @@
+@import '../../variable.scss';
+
+.bar-title {
+  margin-bottom: 3rem !important;
+  letter-spacing: 1px !important;
+  border-bottom: 3px solid $Green !important;
+}
+h2{
+  font-weight: 900;
+  color: $LightNavy;
+}
+
+li.not-active{
+    background-color: rgb(95, 146, 161);
+}
+
+li.active{
+    background-color: $Green;
+}
+
+section{
+    padding-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .ref-msg {
+        span {
+            font-size: 16px !important;
+        }
+    }
+}
