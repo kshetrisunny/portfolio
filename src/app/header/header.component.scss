@@ -48,12 +48,11 @@ li{
   float: right !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .home {
     padding-left: 1rem !important;
-  
     img {
-      width: 3rem;
+      width: 4rem;
     }
   }
 }

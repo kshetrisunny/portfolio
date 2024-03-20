@@ -25,7 +25,11 @@ section{
 @media (max-width: 600px) {
     .ref-msg {
         span {
-            font-size: 16px !important;
+            font-size: 18px !important;
         }
+    }
+
+    .card-body {
+        padding: 2rem 1.25rem !important;
     }
 }
