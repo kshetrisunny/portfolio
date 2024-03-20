@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploy
+Open package.json and then, in script section add the following script.
+
+"scripts": { // ... "deploy": "ng b --prod --base-href https://USERNAME.github.io/DEPOT_NAME/ && npx ngh --dir=dist/Project_Name" },
+
+And now, you can build and deploy to GitHub Pages with a single command: npm run deploy
