@@ -31,7 +31,7 @@ export const locale = {
             'experiencesTitle': 'Experiences',
             'centerOfInterest': 'Interests',
             'sport': 'Sports',
-            'trips': 'Trips',
+            'trips': 'Trekking',
             'boardGames': 'Board games',
             'languages': 'Languages',
             'fluent': 'Fluent',
@@ -72,7 +72,7 @@ export const locale = {
             'title': 'Skills',
             'technologies': 'Technologies',
             'tools': 'Tools',
-            'methodologies': 'Methodologies'
+            'methodologies': 'Agile Methodologies'
         },
     }
 }

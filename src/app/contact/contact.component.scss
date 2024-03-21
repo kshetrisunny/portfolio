@@ -70,6 +70,56 @@ h3,h4{
     color: white;
 }
 
+.btn-social-media{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color: $Green;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    background: $LightestNavy;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:10px;
+
+    &:hover {
+        background: $GreenOpacity;
+    }
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  .btn-icon{
+    color: $Green;
+    background: $LightestNavy;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+
+    &:hover {
+        font-size: 25px;
+    transition: all 0.3s ease-in-out;
+    }
+}
+
+.address {
+color: $LightSlate;
+font-size: 1rem !important;
+margin-left: 1%;
+}
+.name {
+margin-left: 1%;
+}
+.social-btns {
+    margin: 1.75rem 0;
+}
+
 @media (max-width: 600px) {
     button {
         margin-bottom: 1rem !important;
@@ -78,5 +128,12 @@ h3,h4{
     .col-md-3{
         border-top-left-radius: 0rem !important;
         border-bottom-left-radius: 0rem !important;
+    }
+    .social-btns {
+        margin: 2rem 0;
+    }
+    .col-md-9 {
+        height: 20rem !important;
+        padding: 3rem 1rem !important;
     }
 }
