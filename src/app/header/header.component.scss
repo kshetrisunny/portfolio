@@ -13,6 +13,10 @@ li:hover {
     background-color: transparent;
     border: 1px solid $Green;
     border-radius: 3px;
+
+    a {
+      font-size: 14px !important;
+    }
 }
 
 nav{

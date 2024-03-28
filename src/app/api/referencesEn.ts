@@ -13,7 +13,7 @@ export const referencesEn = [
     personPosition: 'Project Manager',
     personCompany: 'Nitor',
     message:
-      'Having worked closely with Sunny Kshetri, I can confidently say he is a highly skilled software engineer. His ability to collaborate with cross-functional teams and adapt to new technologies sets her apart in the field.',
+      'Having worked closely with Sunny Kshetri, I can confidently say he is a highly skilled software engineer. His ability to collaborate with cross-functional teams and adapt to new technologies sets him apart in the field.',
   },
   {
     personImg: 'assets/images/unknown.jpg',
@@ -21,7 +21,7 @@ export const referencesEn = [
     personPosition: 'Project Manager',
     personCompany: 'CT Info Pvt Ltd',
     message:
-      'I highly recommend Sunny Kshetri for her exceptional skills in Ionic Framework, Angular. She consistently exceeded expectations and was a valuable asset to our team.',
+      'I highly recommend Sunny Kshetri for his exceptional skills in Ionic Framework, Angular. He consistently exceeded expectations and was a valuable asset to our team.',
   },
   
 ];
